@@ -2,7 +2,7 @@ version: '3'
 
 services:
   hub:
-    image: jupyter/datascience-notebook
+    image: jupyter/datascience-notebook:6d42503c684f
     ports:
     - "8888:8888"
     volumes:
